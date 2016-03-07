@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21B0E481A2AE19F00E9D9E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E21B0E471A2AE19F00E9D9E0 /* main.m */; };
+		E21B0E4B1A2AE19F00E9D9E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E21B0E4A1A2AE19F00E9D9E0 /* AppDelegate.m */; };
+		E21B0E4E1A2AE19F00E9D9E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21B0E4D1A2AE19F00E9D9E0 /* ViewController.m */; };
+		E21B0E511A2AE19F00E9D9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21B0E4F1A2AE19F00E9D9E0 /* Main.storyboard */; };
+		E21B0E531A2AE19F00E9D9E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21B0E521A2AE19F00E9D9E0 /* Images.xcassets */; };
+		E21B0E561A2AE19F00E9D9E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21B0E541A2AE19F00E9D9E0 /* LaunchScreen.xib */; };
+		E21B0E621A2AE19F00E9D9E0 /* senshaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E21B0E611A2AE19F00E9D9E0 /* senshaTests.m */; };
+		E27E6A961A2B06D4009773F2 /* heli.png in Resources */ = {isa = PBXBuildFile; fileRef = E27E6A921A2B06D4009773F2 /* heli.png */; };
+		E27E6A971A2B06D4009773F2 /* sensha.png in Resources */ = {isa = PBXBuildFile; fileRef = E27E6A931A2B06D4009773F2 /* sensha.png */; };
+		E27E6A991A2B06D4009773F2 /* ufo.png in Resources */ = {isa = PBXBuildFile; fileRef = E27E6A951A2B06D4009773F2 /* ufo.png */; };
+		E27E6A9B1A2B12D2009773F2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E27E6A9A1A2B12D2009773F2 /* back.png */; };
+		E27E6A9E1A2B12DC009773F2 /* sensha_big.png in Resources */ = {isa = PBXBuildFile; fileRef = E27E6A9C1A2B12DC009773F2 /* sensha_big.png */; };
+		E27E6A9F1A2B12DC009773F2 /* sensha_small.png in Resources */ = {isa = PBXBuildFile; fileRef = E27E6A9D1A2B12DC009773F2 /* sensha_small.png */; };
+		E27E6AA61A2B14D4009773F2 /* 01.txt in Resources */ = {isa = PBXBuildFile; fileRef = E27E6AA01A2B14D4009773F2 /* 01.txt */; };
+		E27E6AA71A2B14D4009773F2 /* 02.txt in Resources */ = {isa = PBXBuildFile; fileRef = E27E6AA11A2B14D4009773F2 /* 02.txt */; };
+		E27E6AA81A2B14D4009773F2 /* 03.txt in Resources */ = {isa = PBXBuildFile; fileRef = E27E6AA21A2B14D4009773F2 /* 03.txt */; };
+		E27E6AA91A2B14D4009773F2 /* 04.txt in Resources */ = {isa = PBXBuildFile; fileRef = E27E6AA31A2B14D4009773F2 /* 04.txt */; };
+		E27E6AAA1A2B14D4009773F2 /* 05.txt in Resources */ = {isa = PBXBuildFile; fileRef = E27E6AA41A2B14D4009773F2 /* 05.txt */; };
+		E27E6AAB1A2B14D4009773F2 /* 06.txt in Resources */ = {isa = PBXBuildFile; fileRef = E27E6AA51A2B14D4009773F2 /* 06.txt */; };
+		E27E6AAD1A2B2024009773F2 /* tama.png in Resources */ = {isa = PBXBuildFile; fileRef = E27E6AAC1A2B2024009773F2 /* tama.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E21B0E5C1A2AE19F00E9D9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21B0E3A1A2AE19F00E9D9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E21B0E411A2AE19F00E9D9E0;
+			remoteInfo = sensha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E21B0E421A2AE19F00E9D9E0 /* sensha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sensha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21B0E461A2AE19F00E9D9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21B0E471A2AE19F00E9D9E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E21B0E491A2AE19F00E9D9E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E21B0E4A1A2AE19F00E9D9E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E21B0E4C1A2AE19F00E9D9E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E21B0E4D1A2AE19F00E9D9E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E21B0E501A2AE19F00E9D9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E21B0E521A2AE19F00E9D9E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E21B0E551A2AE19F00E9D9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E21B0E5B1A2AE19F00E9D9E0 /* senshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = senshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21B0E601A2AE19F00E9D9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21B0E611A2AE19F00E9D9E0 /* senshaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = senshaTests.m; sourceTree = "<group>"; };
+		E27E6A921A2B06D4009773F2 /* heli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heli.png; sourceTree = "<group>"; };
+		E27E6A931A2B06D4009773F2 /* sensha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensha.png; sourceTree = "<group>"; };
+		E27E6A951A2B06D4009773F2 /* ufo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo.png; sourceTree = "<group>"; };
+		E27E6A9A1A2B12D2009773F2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E27E6A9C1A2B12DC009773F2 /* sensha_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensha_big.png; sourceTree = "<group>"; };
+		E27E6A9D1A2B12DC009773F2 /* sensha_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensha_small.png; sourceTree = "<group>"; };
+		E27E6AA01A2B14D4009773F2 /* 01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 01.txt; sourceTree = "<group>"; };
+		E27E6AA11A2B14D4009773F2 /* 02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 02.txt; sourceTree = "<group>"; };
+		E27E6AA21A2B14D4009773F2 /* 03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 03.txt; sourceTree = "<group>"; };
+		E27E6AA31A2B14D4009773F2 /* 04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 04.txt; sourceTree = "<group>"; };
+		E27E6AA41A2B14D4009773F2 /* 05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 05.txt; sourceTree = "<group>"; };
+		E27E6AA51A2B14D4009773F2 /* 06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 06.txt; sourceTree = "<group>"; };
+		E27E6AAC1A2B2024009773F2 /* tama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tama.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E21B0E3F1A2AE19F00E9D9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21B0E581A2AE19F00E9D9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E21B0E391A2AE19F00E9D9E0 = {
+			isa = PBXGroup;
+			children = (
+				E21B0E441A2AE19F00E9D9E0 /* sensha */,
+				E21B0E5E1A2AE19F00E9D9E0 /* senshaTests */,
+				E21B0E431A2AE19F00E9D9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E21B0E431A2AE19F00E9D9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E21B0E421A2AE19F00E9D9E0 /* sensha.app */,
+				E21B0E5B1A2AE19F00E9D9E0 /* senshaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21B0E441A2AE19F00E9D9E0 /* sensha */ = {
+			isa = PBXGroup;
+			children = (
+				E27E6A911A2B06D4009773F2 /* kiyo_illust */,
+				E21B0E491A2AE19F00E9D9E0 /* AppDelegate.h */,
+				E21B0E4A1A2AE19F00E9D9E0 /* AppDelegate.m */,
+				E21B0E4C1A2AE19F00E9D9E0 /* ViewController.h */,
+				E21B0E4D1A2AE19F00E9D9E0 /* ViewController.m */,
+				E21B0E4F1A2AE19F00E9D9E0 /* Main.storyboard */,
+				E21B0E521A2AE19F00E9D9E0 /* Images.xcassets */,
+				E21B0E541A2AE19F00E9D9E0 /* LaunchScreen.xib */,
+				E21B0E451A2AE19F00E9D9E0 /* Supporting Files */,
+			);
+			path = sensha;
+			sourceTree = "<group>";
+		};
+		E21B0E451A2AE19F00E9D9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21B0E461A2AE19F00E9D9E0 /* Info.plist */,
+				E21B0E471A2AE19F00E9D9E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E21B0E5E1A2AE19F00E9D9E0 /* senshaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E21B0E611A2AE19F00E9D9E0 /* senshaTests.m */,
+				E21B0E5F1A2AE19F00E9D9E0 /* Supporting Files */,
+			);
+			path = senshaTests;
+			sourceTree = "<group>";
+		};
+		E21B0E5F1A2AE19F00E9D9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21B0E601A2AE19F00E9D9E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E27E6A911A2B06D4009773F2 /* kiyo_illust */ = {
+			isa = PBXGroup;
+			children = (
+				E27E6AA01A2B14D4009773F2 /* 01.txt */,
+				E27E6AA11A2B14D4009773F2 /* 02.txt */,
+				E27E6AA21A2B14D4009773F2 /* 03.txt */,
+				E27E6AA31A2B14D4009773F2 /* 04.txt */,
+				E27E6AA41A2B14D4009773F2 /* 05.txt */,
+				E27E6AA51A2B14D4009773F2 /* 06.txt */,
+				E27E6A9C1A2B12DC009773F2 /* sensha_big.png */,
+				E27E6A9D1A2B12DC009773F2 /* sensha_small.png */,
+				E27E6A9A1A2B12D2009773F2 /* back.png */,
+				E27E6A921A2B06D4009773F2 /* heli.png */,
+				E27E6A931A2B06D4009773F2 /* sensha.png */,
+				E27E6A951A2B06D4009773F2 /* ufo.png */,
+				E27E6AAC1A2B2024009773F2 /* tama.png */,
+			);
+			path = kiyo_illust;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E21B0E411A2AE19F00E9D9E0 /* sensha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21B0E651A2AE19F00E9D9E0 /* Build configuration list for PBXNativeTarget "sensha" */;
+			buildPhases = (
+				E21B0E3E1A2AE19F00E9D9E0 /* Sources */,
+				E21B0E3F1A2AE19F00E9D9E0 /* Frameworks */,
+				E21B0E401A2AE19F00E9D9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sensha;
+			productName = sensha;
+			productReference = E21B0E421A2AE19F00E9D9E0 /* sensha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E21B0E5A1A2AE19F00E9D9E0 /* senshaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21B0E681A2AE19F00E9D9E0 /* Build configuration list for PBXNativeTarget "senshaTests" */;
+			buildPhases = (
+				E21B0E571A2AE19F00E9D9E0 /* Sources */,
+				E21B0E581A2AE19F00E9D9E0 /* Frameworks */,
+				E21B0E591A2AE19F00E9D9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E21B0E5D1A2AE19F00E9D9E0 /* PBXTargetDependency */,
+			);
+			name = senshaTests;
+			productName = senshaTests;
+			productReference = E21B0E5B1A2AE19F00E9D9E0 /* senshaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E21B0E3A1A2AE19F00E9D9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = liafailboy;
+				TargetAttributes = {
+					E21B0E411A2AE19F00E9D9E0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E21B0E5A1A2AE19F00E9D9E0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E21B0E411A2AE19F00E9D9E0;
+					};
+				};
+			};
+			buildConfigurationList = E21B0E3D1A2AE19F00E9D9E0 /* Build configuration list for PBXProject "sensha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E21B0E391A2AE19F00E9D9E0;
+			productRefGroup = E21B0E431A2AE19F00E9D9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E21B0E411A2AE19F00E9D9E0 /* sensha */,
+				E21B0E5A1A2AE19F00E9D9E0 /* senshaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E21B0E401A2AE19F00E9D9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27E6AAB1A2B14D4009773F2 /* 06.txt in Resources */,
+				E27E6AA91A2B14D4009773F2 /* 04.txt in Resources */,
+				E21B0E511A2AE19F00E9D9E0 /* Main.storyboard in Resources */,
+				E27E6A961A2B06D4009773F2 /* heli.png in Resources */,
+				E27E6AA71A2B14D4009773F2 /* 02.txt in Resources */,
+				E27E6AA81A2B14D4009773F2 /* 03.txt in Resources */,
+				E27E6AAA1A2B14D4009773F2 /* 05.txt in Resources */,
+				E27E6A9F1A2B12DC009773F2 /* sensha_small.png in Resources */,
+				E21B0E561A2AE19F00E9D9E0 /* LaunchScreen.xib in Resources */,
+				E27E6A9B1A2B12D2009773F2 /* back.png in Resources */,
+				E27E6AA61A2B14D4009773F2 /* 01.txt in Resources */,
+				E27E6A9E1A2B12DC009773F2 /* sensha_big.png in Resources */,
+				E27E6A991A2B06D4009773F2 /* ufo.png in Resources */,
+				E21B0E531A2AE19F00E9D9E0 /* Images.xcassets in Resources */,
+				E27E6AAD1A2B2024009773F2 /* tama.png in Resources */,
+				E27E6A971A2B06D4009773F2 /* sensha.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21B0E591A2AE19F00E9D9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E21B0E3E1A2AE19F00E9D9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21B0E4E1A2AE19F00E9D9E0 /* ViewController.m in Sources */,
+				E21B0E4B1A2AE19F00E9D9E0 /* AppDelegate.m in Sources */,
+				E21B0E481A2AE19F00E9D9E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21B0E571A2AE19F00E9D9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21B0E621A2AE19F00E9D9E0 /* senshaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E21B0E5D1A2AE19F00E9D9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E21B0E411A2AE19F00E9D9E0 /* sensha */;
+			targetProxy = E21B0E5C1A2AE19F00E9D9E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E21B0E4F1A2AE19F00E9D9E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21B0E501A2AE19F00E9D9E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E21B0E541A2AE19F00E9D9E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21B0E551A2AE19F00E9D9E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E21B0E631A2AE19F00E9D9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E21B0E641A2AE19F00E9D9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E21B0E661A2AE19F00E9D9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sensha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E21B0E671A2AE19F00E9D9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sensha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E21B0E691A2AE19F00E9D9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = senshaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sensha.app/sensha";
+			};
+			name = Debug;
+		};
+		E21B0E6A1A2AE19F00E9D9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = senshaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sensha.app/sensha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E21B0E3D1A2AE19F00E9D9E0 /* Build configuration list for PBXProject "sensha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21B0E631A2AE19F00E9D9E0 /* Debug */,
+				E21B0E641A2AE19F00E9D9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21B0E651A2AE19F00E9D9E0 /* Build configuration list for PBXNativeTarget "sensha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21B0E661A2AE19F00E9D9E0 /* Debug */,
+				E21B0E671A2AE19F00E9D9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21B0E681A2AE19F00E9D9E0 /* Build configuration list for PBXNativeTarget "senshaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21B0E691A2AE19F00E9D9E0 /* Debug */,
+				E21B0E6A1A2AE19F00E9D9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E21B0E3A1A2AE19F00E9D9E0 /* Project object */;
+}

@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E212DCB5192F05ED00A179DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E212DCB4192F05ED00A179DF /* Foundation.framework */; };
+		E212DCB7192F05ED00A179DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E212DCB6192F05ED00A179DF /* CoreGraphics.framework */; };
+		E212DCB9192F05ED00A179DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E212DCB8192F05ED00A179DF /* UIKit.framework */; };
+		E212DCBF192F05ED00A179DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E212DCBD192F05ED00A179DF /* InfoPlist.strings */; };
+		E212DCC1192F05ED00A179DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E212DCC0192F05ED00A179DF /* main.m */; };
+		E212DCC5192F05ED00A179DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E212DCC4192F05ED00A179DF /* AppDelegate.m */; };
+		E212DCC8192F05ED00A179DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E212DCC6192F05ED00A179DF /* Main.storyboard */; };
+		E212DCCB192F05ED00A179DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E212DCCA192F05ED00A179DF /* ViewController.m */; };
+		E212DCCD192F05ED00A179DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E212DCCC192F05ED00A179DF /* Images.xcassets */; };
+		E212DCD4192F05ED00A179DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E212DCD3192F05ED00A179DF /* XCTest.framework */; };
+		E212DCD5192F05ED00A179DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E212DCB4192F05ED00A179DF /* Foundation.framework */; };
+		E212DCD6192F05ED00A179DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E212DCB8192F05ED00A179DF /* UIKit.framework */; };
+		E212DCDE192F05ED00A179DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E212DCDC192F05ED00A179DF /* InfoPlist.strings */; };
+		E212DCE0192F05ED00A179DF /* randomCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E212DCDF192F05ED00A179DF /* randomCircleTests.m */; };
+		E212DCEB192F061200A179DF /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = E212DCEA192F061200A179DF /* Circle.m */; };
+		E2F000C3192F1B87001CF16C /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F000C2192F1B87001CF16C /* Board.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E212DCD7192F05ED00A179DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E212DCA9192F05ED00A179DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E212DCB0192F05ED00A179DF;
+			remoteInfo = randomCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E212DCB1192F05ED00A179DF /* randomCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E212DCB4192F05ED00A179DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E212DCB6192F05ED00A179DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E212DCB8192F05ED00A179DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E212DCBC192F05ED00A179DF /* randomCircle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "randomCircle-Info.plist"; sourceTree = "<group>"; };
+		E212DCBE192F05ED00A179DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E212DCC0192F05ED00A179DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E212DCC2192F05ED00A179DF /* randomCircle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "randomCircle-Prefix.pch"; sourceTree = "<group>"; };
+		E212DCC3192F05ED00A179DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E212DCC4192F05ED00A179DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E212DCC7192F05ED00A179DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E212DCC9192F05ED00A179DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E212DCCA192F05ED00A179DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E212DCCC192F05ED00A179DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E212DCD2192F05ED00A179DF /* randomCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E212DCD3192F05ED00A179DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E212DCDB192F05ED00A179DF /* randomCircleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "randomCircleTests-Info.plist"; sourceTree = "<group>"; };
+		E212DCDD192F05ED00A179DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E212DCDF192F05ED00A179DF /* randomCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = randomCircleTests.m; sourceTree = "<group>"; };
+		E212DCE9192F061200A179DF /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		E212DCEA192F061200A179DF /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		E2F000C1192F1B87001CF16C /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		E2F000C2192F1B87001CF16C /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E212DCAE192F05ED00A179DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212DCB7192F05ED00A179DF /* CoreGraphics.framework in Frameworks */,
+				E212DCB9192F05ED00A179DF /* UIKit.framework in Frameworks */,
+				E212DCB5192F05ED00A179DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E212DCCF192F05ED00A179DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212DCD4192F05ED00A179DF /* XCTest.framework in Frameworks */,
+				E212DCD6192F05ED00A179DF /* UIKit.framework in Frameworks */,
+				E212DCD5192F05ED00A179DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E212DCA8192F05ED00A179DF = {
+			isa = PBXGroup;
+			children = (
+				E212DCBA192F05ED00A179DF /* randomCircle */,
+				E212DCD9192F05ED00A179DF /* randomCircleTests */,
+				E212DCB3192F05ED00A179DF /* Frameworks */,
+				E212DCB2192F05ED00A179DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E212DCB2192F05ED00A179DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E212DCB1192F05ED00A179DF /* randomCircle.app */,
+				E212DCD2192F05ED00A179DF /* randomCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E212DCB3192F05ED00A179DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E212DCB4192F05ED00A179DF /* Foundation.framework */,
+				E212DCB6192F05ED00A179DF /* CoreGraphics.framework */,
+				E212DCB8192F05ED00A179DF /* UIKit.framework */,
+				E212DCD3192F05ED00A179DF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E212DCBA192F05ED00A179DF /* randomCircle */ = {
+			isa = PBXGroup;
+			children = (
+				E212DCC3192F05ED00A179DF /* AppDelegate.h */,
+				E212DCC4192F05ED00A179DF /* AppDelegate.m */,
+				E212DCC6192F05ED00A179DF /* Main.storyboard */,
+				E212DCE9192F061200A179DF /* Circle.h */,
+				E212DCEA192F061200A179DF /* Circle.m */,
+				E2F000C1192F1B87001CF16C /* Board.h */,
+				E2F000C2192F1B87001CF16C /* Board.m */,
+				E212DCC9192F05ED00A179DF /* ViewController.h */,
+				E212DCCA192F05ED00A179DF /* ViewController.m */,
+				E212DCCC192F05ED00A179DF /* Images.xcassets */,
+				E212DCBB192F05ED00A179DF /* Supporting Files */,
+			);
+			path = randomCircle;
+			sourceTree = "<group>";
+		};
+		E212DCBB192F05ED00A179DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E212DCBC192F05ED00A179DF /* randomCircle-Info.plist */,
+				E212DCBD192F05ED00A179DF /* InfoPlist.strings */,
+				E212DCC0192F05ED00A179DF /* main.m */,
+				E212DCC2192F05ED00A179DF /* randomCircle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E212DCD9192F05ED00A179DF /* randomCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E212DCDF192F05ED00A179DF /* randomCircleTests.m */,
+				E212DCDA192F05ED00A179DF /* Supporting Files */,
+			);
+			path = randomCircleTests;
+			sourceTree = "<group>";
+		};
+		E212DCDA192F05ED00A179DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E212DCDB192F05ED00A179DF /* randomCircleTests-Info.plist */,
+				E212DCDC192F05ED00A179DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E212DCB0192F05ED00A179DF /* randomCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E212DCE3192F05ED00A179DF /* Build configuration list for PBXNativeTarget "randomCircle" */;
+			buildPhases = (
+				E212DCAD192F05ED00A179DF /* Sources */,
+				E212DCAE192F05ED00A179DF /* Frameworks */,
+				E212DCAF192F05ED00A179DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = randomCircle;
+			productName = randomCircle;
+			productReference = E212DCB1192F05ED00A179DF /* randomCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E212DCD1192F05ED00A179DF /* randomCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E212DCE6192F05ED00A179DF /* Build configuration list for PBXNativeTarget "randomCircleTests" */;
+			buildPhases = (
+				E212DCCE192F05ED00A179DF /* Sources */,
+				E212DCCF192F05ED00A179DF /* Frameworks */,
+				E212DCD0192F05ED00A179DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E212DCD8192F05ED00A179DF /* PBXTargetDependency */,
+			);
+			name = randomCircleTests;
+			productName = randomCircleTests;
+			productReference = E212DCD2192F05ED00A179DF /* randomCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E212DCA9192F05ED00A179DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shotaro Watanabe";
+				TargetAttributes = {
+					E212DCD1192F05ED00A179DF = {
+						TestTargetID = E212DCB0192F05ED00A179DF;
+					};
+				};
+			};
+			buildConfigurationList = E212DCAC192F05ED00A179DF /* Build configuration list for PBXProject "randomCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E212DCA8192F05ED00A179DF;
+			productRefGroup = E212DCB2192F05ED00A179DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E212DCB0192F05ED00A179DF /* randomCircle */,
+				E212DCD1192F05ED00A179DF /* randomCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E212DCAF192F05ED00A179DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212DCCD192F05ED00A179DF /* Images.xcassets in Resources */,
+				E212DCBF192F05ED00A179DF /* InfoPlist.strings in Resources */,
+				E212DCC8192F05ED00A179DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E212DCD0192F05ED00A179DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212DCDE192F05ED00A179DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E212DCAD192F05ED00A179DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212DCCB192F05ED00A179DF /* ViewController.m in Sources */,
+				E212DCEB192F061200A179DF /* Circle.m in Sources */,
+				E212DCC5192F05ED00A179DF /* AppDelegate.m in Sources */,
+				E212DCC1192F05ED00A179DF /* main.m in Sources */,
+				E2F000C3192F1B87001CF16C /* Board.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E212DCCE192F05ED00A179DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212DCE0192F05ED00A179DF /* randomCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E212DCD8192F05ED00A179DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E212DCB0192F05ED00A179DF /* randomCircle */;
+			targetProxy = E212DCD7192F05ED00A179DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E212DCBD192F05ED00A179DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E212DCBE192F05ED00A179DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E212DCC6192F05ED00A179DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E212DCC7192F05ED00A179DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E212DCDC192F05ED00A179DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E212DCDD192F05ED00A179DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E212DCE1192F05ED00A179DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E212DCE2192F05ED00A179DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E212DCE4192F05ED00A179DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randomCircle/randomCircle-Prefix.pch";
+				INFOPLIST_FILE = "randomCircle/randomCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E212DCE5192F05ED00A179DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randomCircle/randomCircle-Prefix.pch";
+				INFOPLIST_FILE = "randomCircle/randomCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E212DCE7192F05ED00A179DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/randomCircle.app/randomCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randomCircle/randomCircle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "randomCircleTests/randomCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E212DCE8192F05ED00A179DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/randomCircle.app/randomCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "randomCircle/randomCircle-Prefix.pch";
+				INFOPLIST_FILE = "randomCircleTests/randomCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E212DCAC192F05ED00A179DF /* Build configuration list for PBXProject "randomCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212DCE1192F05ED00A179DF /* Debug */,
+				E212DCE2192F05ED00A179DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E212DCE3192F05ED00A179DF /* Build configuration list for PBXNativeTarget "randomCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212DCE4192F05ED00A179DF /* Debug */,
+				E212DCE5192F05ED00A179DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E212DCE6192F05ED00A179DF /* Build configuration list for PBXNativeTarget "randomCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212DCE7192F05ED00A179DF /* Debug */,
+				E212DCE8192F05ED00A179DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E212DCA9192F05ED00A179DF /* Project object */;
+}

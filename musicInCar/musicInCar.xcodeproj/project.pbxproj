@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26A8EBE196103BB00DB3696 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E26A8EBD196103BB00DB3696 /* background.png */; };
+		E26A8EC019610DE500DB3696 /* tutorial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E26A8EBF19610DE500DB3696 /* tutorial.jpg */; };
+		E2847E82195EDF4A00A8ECD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2847E81195EDF4A00A8ECD9 /* AVFoundation.framework */; };
+		E2847EB6195EF12D00A8ECD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2847EB5195EF12D00A8ECD9 /* CoreLocation.framework */; };
+		E2847EC01960346900A8ECD9 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847EBB1960346900A8ECD9 /* car.png */; };
+		E2847EC11960346900A8ECD9 /* left_tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847EBC1960346900A8ECD9 /* left_tunnel.png */; };
+		E2847EC31960346900A8ECD9 /* right_tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847EBE1960346900A8ECD9 /* right_tunnel.png */; };
+		E2847ECF1960347300A8ECD9 /* calm_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847EC51960347300A8ECD9 /* calm_01.caf */; };
+		E2847ED01960347300A8ECD9 /* calm_02.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847EC61960347300A8ECD9 /* calm_02.caf */; };
+		E2847ED11960347300A8ECD9 /* calm_03.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847EC71960347300A8ECD9 /* calm_03.caf */; };
+		E2847ED21960347300A8ECD9 /* calm_04.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847EC81960347300A8ECD9 /* calm_04.caf */; };
+		E2847ED31960347300A8ECD9 /* calm_05.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847EC91960347300A8ECD9 /* calm_05.caf */; };
+		E2847ED41960347300A8ECD9 /* exciting_01.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847ECA1960347300A8ECD9 /* exciting_01.caf */; };
+		E2847ED51960347300A8ECD9 /* exciting_02.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847ECB1960347300A8ECD9 /* exciting_02.caf */; };
+		E2847ED61960347300A8ECD9 /* exciting_03.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847ECC1960347300A8ECD9 /* exciting_03.caf */; };
+		E2847ED71960347300A8ECD9 /* exciting_04.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847ECD1960347300A8ECD9 /* exciting_04.caf */; };
+		E2847ED81960347300A8ECD9 /* exciting_05.caf in Resources */ = {isa = PBXBuildFile; fileRef = E2847ECE1960347300A8ECD9 /* exciting_05.caf */; };
+		E2847EDD1960605900A8ECD9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847ED91960605900A8ECD9 /* back.png */; };
+		E2847EDE1960605900A8ECD9 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847EDA1960605900A8ECD9 /* next.png */; };
+		E2847EDF1960605900A8ECD9 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847EDB1960605900A8ECD9 /* play.png */; };
+		E2847EE01960605900A8ECD9 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847EDC1960605900A8ECD9 /* stop.png */; };
+		E2847EE31960658A00A8ECD9 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847EE11960658A00A8ECD9 /* star.png */; };
+		E2847EE41960658A00A8ECD9 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = E2847EE21960658A00A8ECD9 /* trash.png */; };
+		E299B673195EDA5D0098549D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299B672195EDA5D0098549D /* Foundation.framework */; };
+		E299B675195EDA5D0098549D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299B674195EDA5D0098549D /* CoreGraphics.framework */; };
+		E299B677195EDA5D0098549D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299B676195EDA5D0098549D /* UIKit.framework */; };
+		E299B67D195EDA5D0098549D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E299B67B195EDA5D0098549D /* InfoPlist.strings */; };
+		E299B67F195EDA5D0098549D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E299B67E195EDA5D0098549D /* main.m */; };
+		E299B683195EDA5D0098549D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E299B682195EDA5D0098549D /* AppDelegate.m */; };
+		E299B686195EDA5D0098549D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E299B684195EDA5D0098549D /* Main.storyboard */; };
+		E299B689195EDA5D0098549D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E299B688195EDA5D0098549D /* ViewController.m */; };
+		E299B68B195EDA5D0098549D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E299B68A195EDA5D0098549D /* Images.xcassets */; };
+		E299B692195EDA5D0098549D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299B691195EDA5D0098549D /* XCTest.framework */; };
+		E299B693195EDA5D0098549D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299B672195EDA5D0098549D /* Foundation.framework */; };
+		E299B694195EDA5D0098549D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299B676195EDA5D0098549D /* UIKit.framework */; };
+		E299B69C195EDA5D0098549D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E299B69A195EDA5D0098549D /* InfoPlist.strings */; };
+		E299B69E195EDA5D0098549D /* musicInCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E299B69D195EDA5D0098549D /* musicInCarTests.m */; };
+		E2A6056B1961178400C72B7B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A6056A1961178400C72B7B /* icon.png */; };
+		E2C4AC18196073A8006FE990 /* main_back.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E2C4AC17196073A8006FE990 /* main_back.jpeg */; };
+		E2CCE8A7195EDB0A00A8C21E /* carStartedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCE8A5195EDB0A00A8C21E /* carStartedViewController.m */; };
+		E2CCE8A8195EDB0A00A8C21E /* carStartedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CCE8A6195EDB0A00A8C21E /* carStartedViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E299B695195EDA5D0098549D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E299B667195EDA5D0098549D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E299B66E195EDA5D0098549D;
+			remoteInfo = musicInCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E26A8EBD196103BB00DB3696 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		E26A8EBF19610DE500DB3696 /* tutorial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutorial.jpg; sourceTree = "<group>"; };
+		E2847E81195EDF4A00A8ECD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E2847EB5195EF12D00A8ECD9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E2847EBB1960346900A8ECD9 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		E2847EBC1960346900A8ECD9 /* left_tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_tunnel.png; sourceTree = "<group>"; };
+		E2847EBE1960346900A8ECD9 /* right_tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_tunnel.png; sourceTree = "<group>"; };
+		E2847EC51960347300A8ECD9 /* calm_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calm_01.caf; sourceTree = "<group>"; };
+		E2847EC61960347300A8ECD9 /* calm_02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calm_02.caf; sourceTree = "<group>"; };
+		E2847EC71960347300A8ECD9 /* calm_03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calm_03.caf; sourceTree = "<group>"; };
+		E2847EC81960347300A8ECD9 /* calm_04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calm_04.caf; sourceTree = "<group>"; };
+		E2847EC91960347300A8ECD9 /* calm_05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calm_05.caf; sourceTree = "<group>"; };
+		E2847ECA1960347300A8ECD9 /* exciting_01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = exciting_01.caf; sourceTree = "<group>"; };
+		E2847ECB1960347300A8ECD9 /* exciting_02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = exciting_02.caf; sourceTree = "<group>"; };
+		E2847ECC1960347300A8ECD9 /* exciting_03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = exciting_03.caf; sourceTree = "<group>"; };
+		E2847ECD1960347300A8ECD9 /* exciting_04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = exciting_04.caf; sourceTree = "<group>"; };
+		E2847ECE1960347300A8ECD9 /* exciting_05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = exciting_05.caf; sourceTree = "<group>"; };
+		E2847ED91960605900A8ECD9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E2847EDA1960605900A8ECD9 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		E2847EDB1960605900A8ECD9 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		E2847EDC1960605900A8ECD9 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		E2847EE11960658A00A8ECD9 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		E2847EE21960658A00A8ECD9 /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		E299B66F195EDA5D0098549D /* musicInCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicInCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E299B672195EDA5D0098549D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E299B674195EDA5D0098549D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E299B676195EDA5D0098549D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E299B67A195EDA5D0098549D /* musicInCar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "musicInCar-Info.plist"; sourceTree = "<group>"; };
+		E299B67C195EDA5D0098549D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E299B67E195EDA5D0098549D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E299B680195EDA5D0098549D /* musicInCar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "musicInCar-Prefix.pch"; sourceTree = "<group>"; };
+		E299B681195EDA5D0098549D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E299B682195EDA5D0098549D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E299B685195EDA5D0098549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E299B687195EDA5D0098549D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E299B688195EDA5D0098549D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E299B68A195EDA5D0098549D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E299B690195EDA5D0098549D /* musicInCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicInCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E299B691195EDA5D0098549D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E299B699195EDA5D0098549D /* musicInCarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "musicInCarTests-Info.plist"; sourceTree = "<group>"; };
+		E299B69B195EDA5D0098549D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E299B69D195EDA5D0098549D /* musicInCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musicInCarTests.m; sourceTree = "<group>"; };
+		E2A6056A1961178400C72B7B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E2C4AC17196073A8006FE990 /* main_back.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_back.jpeg; sourceTree = "<group>"; };
+		E2CCE8A4195EDB0A00A8C21E /* carStartedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carStartedViewController.h; sourceTree = "<group>"; };
+		E2CCE8A5195EDB0A00A8C21E /* carStartedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carStartedViewController.m; sourceTree = "<group>"; };
+		E2CCE8A6195EDB0A00A8C21E /* carStartedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = carStartedViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E299B66C195EDA5D0098549D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2847EB6195EF12D00A8ECD9 /* CoreLocation.framework in Frameworks */,
+				E2847E82195EDF4A00A8ECD9 /* AVFoundation.framework in Frameworks */,
+				E299B675195EDA5D0098549D /* CoreGraphics.framework in Frameworks */,
+				E299B677195EDA5D0098549D /* UIKit.framework in Frameworks */,
+				E299B673195EDA5D0098549D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E299B68D195EDA5D0098549D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E299B692195EDA5D0098549D /* XCTest.framework in Frameworks */,
+				E299B694195EDA5D0098549D /* UIKit.framework in Frameworks */,
+				E299B693195EDA5D0098549D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2847EB91960346900A8ECD9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E2A6056A1961178400C72B7B /* icon.png */,
+				E26A8EBF19610DE500DB3696 /* tutorial.jpg */,
+				E26A8EBD196103BB00DB3696 /* background.png */,
+				E2C4AC17196073A8006FE990 /* main_back.jpeg */,
+				E2847EE11960658A00A8ECD9 /* star.png */,
+				E2847EE21960658A00A8ECD9 /* trash.png */,
+				E2847ED91960605900A8ECD9 /* back.png */,
+				E2847EDA1960605900A8ECD9 /* next.png */,
+				E2847EDB1960605900A8ECD9 /* play.png */,
+				E2847EDC1960605900A8ECD9 /* stop.png */,
+				E2847EBB1960346900A8ECD9 /* car.png */,
+				E2847EBC1960346900A8ECD9 /* left_tunnel.png */,
+				E2847EBE1960346900A8ECD9 /* right_tunnel.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E2847EC41960347300A8ECD9 /* Musics */ = {
+			isa = PBXGroup;
+			children = (
+				E2847EC51960347300A8ECD9 /* calm_01.caf */,
+				E2847EC61960347300A8ECD9 /* calm_02.caf */,
+				E2847EC71960347300A8ECD9 /* calm_03.caf */,
+				E2847EC81960347300A8ECD9 /* calm_04.caf */,
+				E2847EC91960347300A8ECD9 /* calm_05.caf */,
+				E2847ECA1960347300A8ECD9 /* exciting_01.caf */,
+				E2847ECB1960347300A8ECD9 /* exciting_02.caf */,
+				E2847ECC1960347300A8ECD9 /* exciting_03.caf */,
+				E2847ECD1960347300A8ECD9 /* exciting_04.caf */,
+				E2847ECE1960347300A8ECD9 /* exciting_05.caf */,
+			);
+			path = Musics;
+			sourceTree = "<group>";
+		};
+		E299B666195EDA5D0098549D = {
+			isa = PBXGroup;
+			children = (
+				E299B678195EDA5D0098549D /* musicInCar */,
+				E299B697195EDA5D0098549D /* musicInCarTests */,
+				E299B671195EDA5D0098549D /* Frameworks */,
+				E299B670195EDA5D0098549D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E299B670195EDA5D0098549D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E299B66F195EDA5D0098549D /* musicInCar.app */,
+				E299B690195EDA5D0098549D /* musicInCarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E299B671195EDA5D0098549D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2847EB5195EF12D00A8ECD9 /* CoreLocation.framework */,
+				E2847E81195EDF4A00A8ECD9 /* AVFoundation.framework */,
+				E299B672195EDA5D0098549D /* Foundation.framework */,
+				E299B674195EDA5D0098549D /* CoreGraphics.framework */,
+				E299B676195EDA5D0098549D /* UIKit.framework */,
+				E299B691195EDA5D0098549D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E299B678195EDA5D0098549D /* musicInCar */ = {
+			isa = PBXGroup;
+			children = (
+				E2847EB91960346900A8ECD9 /* Images */,
+				E2847EC41960347300A8ECD9 /* Musics */,
+				E299B681195EDA5D0098549D /* AppDelegate.h */,
+				E299B682195EDA5D0098549D /* AppDelegate.m */,
+				E299B684195EDA5D0098549D /* Main.storyboard */,
+				E299B687195EDA5D0098549D /* ViewController.h */,
+				E299B688195EDA5D0098549D /* ViewController.m */,
+				E2CCE8A4195EDB0A00A8C21E /* carStartedViewController.h */,
+				E2CCE8A5195EDB0A00A8C21E /* carStartedViewController.m */,
+				E2CCE8A6195EDB0A00A8C21E /* carStartedViewController.xib */,
+				E299B68A195EDA5D0098549D /* Images.xcassets */,
+				E299B679195EDA5D0098549D /* Supporting Files */,
+			);
+			path = musicInCar;
+			sourceTree = "<group>";
+		};
+		E299B679195EDA5D0098549D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E299B67A195EDA5D0098549D /* musicInCar-Info.plist */,
+				E299B67B195EDA5D0098549D /* InfoPlist.strings */,
+				E299B67E195EDA5D0098549D /* main.m */,
+				E299B680195EDA5D0098549D /* musicInCar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E299B697195EDA5D0098549D /* musicInCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E299B69D195EDA5D0098549D /* musicInCarTests.m */,
+				E299B698195EDA5D0098549D /* Supporting Files */,
+			);
+			path = musicInCarTests;
+			sourceTree = "<group>";
+		};
+		E299B698195EDA5D0098549D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E299B699195EDA5D0098549D /* musicInCarTests-Info.plist */,
+				E299B69A195EDA5D0098549D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E299B66E195EDA5D0098549D /* musicInCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E299B6A1195EDA5D0098549D /* Build configuration list for PBXNativeTarget "musicInCar" */;
+			buildPhases = (
+				E299B66B195EDA5D0098549D /* Sources */,
+				E299B66C195EDA5D0098549D /* Frameworks */,
+				E299B66D195EDA5D0098549D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = musicInCar;
+			productName = musicInCar;
+			productReference = E299B66F195EDA5D0098549D /* musicInCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E299B68F195EDA5D0098549D /* musicInCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E299B6A4195EDA5D0098549D /* Build configuration list for PBXNativeTarget "musicInCarTests" */;
+			buildPhases = (
+				E299B68C195EDA5D0098549D /* Sources */,
+				E299B68D195EDA5D0098549D /* Frameworks */,
+				E299B68E195EDA5D0098549D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E299B696195EDA5D0098549D /* PBXTargetDependency */,
+			);
+			name = musicInCarTests;
+			productName = musicInCarTests;
+			productReference = E299B690195EDA5D0098549D /* musicInCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E299B667195EDA5D0098549D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = liafailboy;
+				TargetAttributes = {
+					E299B68F195EDA5D0098549D = {
+						TestTargetID = E299B66E195EDA5D0098549D;
+					};
+				};
+			};
+			buildConfigurationList = E299B66A195EDA5D0098549D /* Build configuration list for PBXProject "musicInCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E299B666195EDA5D0098549D;
+			productRefGroup = E299B670195EDA5D0098549D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E299B66E195EDA5D0098549D /* musicInCar */,
+				E299B68F195EDA5D0098549D /* musicInCarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E299B66D195EDA5D0098549D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2847EC31960346900A8ECD9 /* right_tunnel.png in Resources */,
+				E2847ED61960347300A8ECD9 /* exciting_03.caf in Resources */,
+				E2A6056B1961178400C72B7B /* icon.png in Resources */,
+				E2847EC01960346900A8ECD9 /* car.png in Resources */,
+				E2847ED51960347300A8ECD9 /* exciting_02.caf in Resources */,
+				E2C4AC18196073A8006FE990 /* main_back.jpeg in Resources */,
+				E2847EE31960658A00A8ECD9 /* star.png in Resources */,
+				E26A8EBE196103BB00DB3696 /* background.png in Resources */,
+				E2847ED01960347300A8ECD9 /* calm_02.caf in Resources */,
+				E2CCE8A8195EDB0A00A8C21E /* carStartedViewController.xib in Resources */,
+				E2847EDF1960605900A8ECD9 /* play.png in Resources */,
+				E2847ED71960347300A8ECD9 /* exciting_04.caf in Resources */,
+				E2847ECF1960347300A8ECD9 /* calm_01.caf in Resources */,
+				E2847ED21960347300A8ECD9 /* calm_04.caf in Resources */,
+				E2847EE41960658A00A8ECD9 /* trash.png in Resources */,
+				E299B68B195EDA5D0098549D /* Images.xcassets in Resources */,
+				E299B67D195EDA5D0098549D /* InfoPlist.strings in Resources */,
+				E2847ED41960347300A8ECD9 /* exciting_01.caf in Resources */,
+				E2847EDE1960605900A8ECD9 /* next.png in Resources */,
+				E2847ED31960347300A8ECD9 /* calm_05.caf in Resources */,
+				E2847EC11960346900A8ECD9 /* left_tunnel.png in Resources */,
+				E2847EDD1960605900A8ECD9 /* back.png in Resources */,
+				E2847ED11960347300A8ECD9 /* calm_03.caf in Resources */,
+				E299B686195EDA5D0098549D /* Main.storyboard in Resources */,
+				E26A8EC019610DE500DB3696 /* tutorial.jpg in Resources */,
+				E2847ED81960347300A8ECD9 /* exciting_05.caf in Resources */,
+				E2847EE01960605900A8ECD9 /* stop.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E299B68E195EDA5D0098549D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E299B69C195EDA5D0098549D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E299B66B195EDA5D0098549D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E299B689195EDA5D0098549D /* ViewController.m in Sources */,
+				E2CCE8A7195EDB0A00A8C21E /* carStartedViewController.m in Sources */,
+				E299B683195EDA5D0098549D /* AppDelegate.m in Sources */,
+				E299B67F195EDA5D0098549D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E299B68C195EDA5D0098549D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E299B69E195EDA5D0098549D /* musicInCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E299B696195EDA5D0098549D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E299B66E195EDA5D0098549D /* musicInCar */;
+			targetProxy = E299B695195EDA5D0098549D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E299B67B195EDA5D0098549D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E299B67C195EDA5D0098549D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E299B684195EDA5D0098549D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E299B685195EDA5D0098549D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E299B69A195EDA5D0098549D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E299B69B195EDA5D0098549D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E299B69F195EDA5D0098549D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E299B6A0195EDA5D0098549D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E299B6A2195EDA5D0098549D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musicInCar/musicInCar-Prefix.pch";
+				INFOPLIST_FILE = "musicInCar/musicInCar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E299B6A3195EDA5D0098549D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musicInCar/musicInCar-Prefix.pch";
+				INFOPLIST_FILE = "musicInCar/musicInCar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E299B6A5195EDA5D0098549D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/musicInCar.app/musicInCar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musicInCar/musicInCar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "musicInCarTests/musicInCarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E299B6A6195EDA5D0098549D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/musicInCar.app/musicInCar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musicInCar/musicInCar-Prefix.pch";
+				INFOPLIST_FILE = "musicInCarTests/musicInCarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E299B66A195EDA5D0098549D /* Build configuration list for PBXProject "musicInCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E299B69F195EDA5D0098549D /* Debug */,
+				E299B6A0195EDA5D0098549D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E299B6A1195EDA5D0098549D /* Build configuration list for PBXNativeTarget "musicInCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E299B6A2195EDA5D0098549D /* Debug */,
+				E299B6A3195EDA5D0098549D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E299B6A4195EDA5D0098549D /* Build configuration list for PBXNativeTarget "musicInCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E299B6A5195EDA5D0098549D /* Debug */,
+				E299B6A6195EDA5D0098549D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E299B667195EDA5D0098549D /* Project object */;
+}
